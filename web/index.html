@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Game</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="header">
+            UNO Game Room
+        </div>
+
+        <div class="leftArea">
+            <ul id="gameList"></ul>
+        </div>
+
+        <form id="gameForm">
+            <div class="mainArea">
+                <label>Id:</label>
+                <input id="gameId" name="id" type="text" disabled />
+                <label>Name:</label>
+                <input id="name" name="name" type="text" required>
+                <button id="btnSave">Create</button>
+                <button id="btnDelete">Delete</button>
+                <button id="btnStart">Start Game</button>
+                <button id="btnAdd">Clear</button>
+            </div>
+        </form>
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
